@@ -28,6 +28,3 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build with Maven
-        run: mvn clean install
-        working-directory: ./daysecondlast   # 👈 point this to the folder containing pom.xml
